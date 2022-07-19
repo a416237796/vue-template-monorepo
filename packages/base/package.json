@@ -1,0 +1,14 @@
+{
+  "name": "@ws-monorepo/base",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@micro-zoe/micro-app": "^0.8.8"
+  }
+}
